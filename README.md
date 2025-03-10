@@ -1,31 +1,25 @@
 # AI Song Generator
 
-A web application that generates songs in the style of your favorite artists using AI.
+A web application that generates songs using AI, built with Next.js and the Hugging Face API.
 
 ## Features
 
-- Generate songs based on theme, artist style, language, and genre
-- Save generated songs locally
-- Dark/Light theme support
-- Responsive design
-- Copy lyrics to clipboard
-- View saved song history
+- Generate songs based on theme, language, and artist style
+- Powered by Mistral AI model
+- Modern UI with responsive design
+- Built with Next.js and TypeScript
 
-## Tech Stack
+## Live Demo
 
-- Next.js 13
-- TypeScript
-- Tailwind CSS
-- Hugging Face API (Mistral-7B-Instruct-v0.2)
-- Framer Motion for animations
+Visit the live demo at: [https://ajinkyaudmale.github.io/songs](https://ajinkyaudmale.github.io/songs)
 
-## Getting Started
+## Local Development
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/song-generator.git
-cd song-generator
+git clone https://github.com/ajinkyaudmale/songs.git
+cd songs
 ```
 
 2. Install dependencies:
@@ -48,10 +42,27 @@ npm run dev
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+## Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions. The deployment process:
+
+1. Builds the Next.js application
+2. Uploads the built files to GitHub Pages
+3. Deploys the site to the configured domain
+
 ## Environment Variables
 
-- `HUGGING_FACE_API_KEY`: Your Hugging Face API key
+- `HUGGING_FACE_API_KEY`: Your Hugging Face API key (required)
 
-## Contributing
+## Technologies Used
 
-Feel free to open issues and pull requests!
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Hugging Face API
+- GitHub Actions
+- GitHub Pages
+
+## License
+
+MIT
